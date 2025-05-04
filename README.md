@@ -1,4 +1,4 @@
-# RP2040 Unipolar StepDir Driver
+# RP2040 StepDIr to 4wire-PWM stepper logic
 This is a simple arduino code to use the RP2040 as logic to convert a Step/Dir interface into 4 signals used for PWM type bridge drivers such as the DRV8803 or DRV8932. 
 
 The logic is coded with 1/2 steps commonly used with unipolar steppers, but it could be easily transformed into something else (even into bipolar logic) by modifying the pulse sequence.
